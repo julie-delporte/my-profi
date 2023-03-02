@@ -70,3 +70,54 @@ a:hover {
 		width: 600px;
 	}
 } 
+
+/* Importing component files */
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/banner.css");
+@import url("components/button.css");
+
+/* General style rules for fonts and colors */
+body {
+  font-family: 'Lora', serif;
+  font-size: 18px;
+  margin: 0px;
+}
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+}
+
+.banner {
+  /* 1. Set a background image */
+  background-image: url(https://thumbs.dreamstime.com/b/banni%C3%A8re-vive-de-site-web-de-ciel-d-arc-en-ciel-93043213.jpg);   
+  /* 2. Make the background image cover the banner div */
+	background-size: cover;     
+  /* 3. Center the image */
+	background-position: center;
+	font-size: 200px 800px;
+	font-weight: 800px 40px;
+	margin: auto 200px;
+
+}
+
+.banner h1 {
+  color: white;
+  font-size: 50px;
+}
+.banner h2 {
+  color: white;
+  font-size: 30px;
+  font-weight: lighter;
+	opacity: 0.8;
+}
+
+.btn-blue {
+   background-color: steelblue;
+   padding: 15px 20px;
+   border-radius: 10px;
+
+}
